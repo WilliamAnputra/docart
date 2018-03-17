@@ -1,0 +1,17 @@
+  import React from 'react';
+  import { View } from 'react-native';
+
+  const something  = () => {
+    const { Container } = styles;
+    return (
+      <View />
+    );
+  };
+
+  const styles = {
+    Container: {}
+  };
+  export { something };
+
+
+

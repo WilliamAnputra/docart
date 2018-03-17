@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders colors 1`] = `
+Object {
+  "BLACK": "#000000",
+  "DARK_BLUE": "#253f61",
+  "DARK_GRAY": "#4a4a4a",
+  "DARK_ORANGE": "#d95a5c",
+  "DARK_RED": "#a91515",
+  "LIGHT_BLACK": "#2D2D2D",
+  "LIGHT_BLUE": "#4A90E2",
+  "LIGHT_GRAY": "#cccccc",
+  "LIGHT_GREEN": "#95B487",
+  "LIGHT_ORANGE": "#FF9E7D",
+  "LIGHT_RED": "#e33e41",
+  "MEDIUM_GRAY": "#9b9b9b",
+  "MEDIUM_GREEN": "#96b35c",
+  "MEDIUM_PURPLE": "#C7008C",
+  "MEDIUM_RED": "#f20800",
+  "MEDIUM_WHITE": "#f4f4f4",
+  "MEDIUM_YELLOW": "#F5A623",
+  "SEMI_DARK_RED": "#ce2124",
+  "SEMI_LIGHT_RED": "#D12C12",
+  "SEMI_MEDIUM_GRAY": "#d2dae0",
+  "WHITE": "#ffffff",
+}
+`;

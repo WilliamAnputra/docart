@@ -1,0 +1,42 @@
+-injars /Users/bamms/Desktop/exampleApp/android/app/build/intermediates/transforms/proguard/release/0.jar
+-outjars /Users/bamms/Desktop/exampleApp/android/app/build/intermediates/multi-dex/release/componentClasses.jar
+
+-libraryjars /Users/bamms/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/bamms/Desktop/exampleApp/android/app/build/intermediates/multi-dex/release/components.flags
+
+
+# Referenced at /Users/bamms/Desktop/exampleApp/android/app/build/intermediates/manifests/full/release/AndroidManifest.xml:29
+-keep class com.exampleapp.MainApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

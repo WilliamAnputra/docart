@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders constants  1`] = `
+Object {
+  "ACCESS_TOKEN": "accessToken",
+  "PHOTOS": "photo",
+}
+`;

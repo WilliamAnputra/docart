@@ -1,0 +1,576 @@
+android.support.media.ExifInterface:
+    static final short BYTE_ALIGN_II
+    static final short BYTE_ALIGN_MM
+    static final byte START_CODE
+    static final int IFD_TYPE_PRIMARY
+    static final int IFD_TYPE_THUMBNAIL
+    static final int IFD_TYPE_PREVIEW
+    static final byte MARKER
+    static final byte MARKER_APP1
+    static final byte MARKER_EOI
+android.support.multidex.MultiDex:
+    static final java.lang.String TAG
+android.support.v4.app.BackStackRecord:
+    static final java.lang.String TAG
+    static final int OP_NULL
+    static final int OP_ADD
+    static final int OP_REPLACE
+    static final int OP_REMOVE
+    static final int OP_HIDE
+    static final int OP_SHOW
+    static final int OP_DETACH
+    static final int OP_ATTACH
+    static final int OP_SET_PRIMARY_NAV
+    static final int OP_UNSET_PRIMARY_NAV
+android.support.v4.app.Fragment:
+    static final int INITIALIZING
+    static final int CREATED
+    static final int ACTIVITY_CREATED
+    static final int STOPPED
+    static final int STARTED
+    static final int RESUMED
+android.support.v4.app.FragmentActivity:
+    static final java.lang.String FRAGMENTS_TAG
+    static final java.lang.String NEXT_CANDIDATE_REQUEST_INDEX_TAG
+    static final java.lang.String ALLOCATED_REQUEST_INDICIES_TAG
+    static final java.lang.String REQUEST_FRAGMENT_WHO_TAG
+    static final int MAX_NUM_PENDING_FRAGMENT_ACTIVITY_RESULTS
+    static final int MSG_REALLY_STOPPED
+    static final int MSG_RESUME_PENDING
+android.support.v4.app.FragmentManagerImpl:
+    static final java.lang.String TAG
+    static final java.lang.String TARGET_REQUEST_CODE_STATE_TAG
+    static final java.lang.String TARGET_STATE_TAG
+    static final java.lang.String VIEW_STATE_TAG
+    static final java.lang.String USER_VISIBLE_HINT_TAG
+    static final int ANIM_DUR
+android.support.v4.app.INotificationSideChannel$Stub:
+    static final int TRANSACTION_notify
+    static final int TRANSACTION_cancel
+    static final int TRANSACTION_cancelAll
+android.support.v4.app.JobIntentService:
+    static final java.lang.String TAG
+    static final boolean DEBUG
+android.support.v4.app.JobIntentService$JobServiceEngineImpl:
+    static final java.lang.String TAG
+    static final boolean DEBUG
+android.support.v4.app.ListFragment:
+    static final int INTERNAL_EMPTY_ID
+    static final int INTERNAL_PROGRESS_CONTAINER_ID
+    static final int INTERNAL_LIST_CONTAINER_ID
+android.support.v4.app.LoaderManagerImpl:
+    static final java.lang.String TAG
+    boolean mRetainingStarted
+android.support.v4.app.NotificationCompat$MessagingStyle$Message:
+    static final java.lang.String KEY_TEXT
+    static final java.lang.String KEY_TIMESTAMP
+    static final java.lang.String KEY_SENDER
+    static final java.lang.String KEY_DATA_MIME_TYPE
+    static final java.lang.String KEY_DATA_URI
+    static final java.lang.String KEY_EXTRAS_BUNDLE
+android.support.v4.app.NotificationCompatBase$UnreadConversation:
+    abstract java.lang.String getParticipant()
+android.support.v4.app.NotificationCompatJellybean:
+    static final java.lang.String EXTRA_DATA_ONLY_REMOTE_INPUTS
+    static final java.lang.String EXTRA_ALLOW_GENERATED_REPLIES
+android.support.v4.app.NotificationManagerCompat:
+    static final int MAX_SIDE_CHANNEL_SDK_VERSION
+android.support.v4.content.AsyncTaskLoader:
+    static final java.lang.String TAG
+    static final boolean DEBUG
+android.support.v4.content.LocalBroadcastManager:
+    static final int MSG_EXEC_PENDING_BROADCASTS
+android.support.v4.content.ModernAsyncTask:
+    477:481:protected final varargs void publishProgress(java.lang.Object[])
+android.support.v4.content.pm.ShortcutManagerCompat:
+    static final java.lang.String ACTION_INSTALL_SHORTCUT
+    static final java.lang.String INSTALL_SHORTCUT_PERMISSION
+android.support.v4.media.MediaBrowserCompat:
+    static final java.lang.String TAG
+android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase:
+    static final int CONNECT_STATE_DISCONNECTING
+    static final int CONNECT_STATE_DISCONNECTED
+    static final int CONNECT_STATE_CONNECTING
+    static final int CONNECT_STATE_CONNECTED
+    static final int CONNECT_STATE_SUSPENDED
+android.support.v4.media.MediaBrowserCompatApi21:
+    static final java.lang.String NULL_MEDIA_ITEM_ID
+android.support.v4.media.MediaBrowserServiceCompat:
+    static final java.lang.String TAG
+    static final int RESULT_FLAG_OPTION_NOT_HANDLED
+    static final int RESULT_FLAG_ON_LOAD_ITEM_NOT_IMPLEMENTED
+    static final int RESULT_FLAG_ON_SEARCH_NOT_IMPLEMENTED
+    static final int RESULT_ERROR
+    static final int RESULT_OK
+    static final int RESULT_PROGRESS_UPDATE
+android.support.v4.media.MediaMetadataCompat:
+    static final int METADATA_TYPE_LONG
+    static final int METADATA_TYPE_TEXT
+    static final int METADATA_TYPE_BITMAP
+    static final int METADATA_TYPE_RATING
+android.support.v4.media.ParceledListSliceAdapterApi21:
+    42:48:static java.lang.Object newInstance(java.util.List)
+android.support.v4.media.session.IMediaControllerCallback$Stub:
+    static final int TRANSACTION_onEvent
+    static final int TRANSACTION_onSessionDestroyed
+    static final int TRANSACTION_onPlaybackStateChanged
+    static final int TRANSACTION_onMetadataChanged
+    static final int TRANSACTION_onQueueChanged
+    static final int TRANSACTION_onQueueTitleChanged
+    static final int TRANSACTION_onExtrasChanged
+    static final int TRANSACTION_onVolumeInfoChanged
+    static final int TRANSACTION_onRepeatModeChanged
+    static final int TRANSACTION_onShuffleModeChangedDeprecated
+    static final int TRANSACTION_onCaptioningEnabledChanged
+    static final int TRANSACTION_onShuffleModeChanged
+android.support.v4.media.session.IMediaSession$Stub:
+    static final int TRANSACTION_sendCommand
+    static final int TRANSACTION_sendMediaButton
+    static final int TRANSACTION_registerCallbackListener
+    static final int TRANSACTION_unregisterCallbackListener
+    static final int TRANSACTION_isTransportControlEnabled
+    static final int TRANSACTION_getPackageName
+    static final int TRANSACTION_getTag
+    static final int TRANSACTION_getLaunchPendingIntent
+    static final int TRANSACTION_getFlags
+    static final int TRANSACTION_getVolumeAttributes
+    static final int TRANSACTION_adjustVolume
+    static final int TRANSACTION_setVolumeTo
+    static final int TRANSACTION_getMetadata
+    static final int TRANSACTION_getPlaybackState
+    static final int TRANSACTION_getQueue
+    static final int TRANSACTION_getQueueTitle
+    static final int TRANSACTION_getExtras
+    static final int TRANSACTION_getRatingType
+    static final int TRANSACTION_isCaptioningEnabled
+    static final int TRANSACTION_getRepeatMode
+    static final int TRANSACTION_isShuffleModeEnabledDeprecated
+    static final int TRANSACTION_getShuffleMode
+    static final int TRANSACTION_addQueueItem
+    static final int TRANSACTION_addQueueItemAt
+    static final int TRANSACTION_removeQueueItem
+    static final int TRANSACTION_removeQueueItemAt
+    static final int TRANSACTION_prepare
+    static final int TRANSACTION_prepareFromMediaId
+    static final int TRANSACTION_prepareFromSearch
+    static final int TRANSACTION_prepareFromUri
+    static final int TRANSACTION_play
+    static final int TRANSACTION_playFromMediaId
+    static final int TRANSACTION_playFromSearch
+    static final int TRANSACTION_playFromUri
+    static final int TRANSACTION_skipToQueueItem
+    static final int TRANSACTION_pause
+    static final int TRANSACTION_stop
+    static final int TRANSACTION_next
+    static final int TRANSACTION_previous
+    static final int TRANSACTION_fastForward
+    static final int TRANSACTION_rewind
+    static final int TRANSACTION_seekTo
+    static final int TRANSACTION_rate
+    static final int TRANSACTION_rateWithExtras
+    static final int TRANSACTION_setCaptioningEnabled
+    static final int TRANSACTION_setRepeatMode
+    static final int TRANSACTION_setShuffleModeEnabledDeprecated
+    static final int TRANSACTION_setShuffleMode
+    static final int TRANSACTION_sendCustomAction
+android.support.v4.media.session.MediaControllerCompat:
+    static final java.lang.String TAG
+    static final java.lang.String COMMAND_GET_EXTRA_BINDER
+    static final java.lang.String COMMAND_ADD_QUEUE_ITEM
+    static final java.lang.String COMMAND_ADD_QUEUE_ITEM_AT
+    static final java.lang.String COMMAND_REMOVE_QUEUE_ITEM
+    static final java.lang.String COMMAND_REMOVE_QUEUE_ITEM_AT
+    static final java.lang.String COMMAND_ARGUMENT_MEDIA_DESCRIPTION
+    static final java.lang.String COMMAND_ARGUMENT_INDEX
+android.support.v4.media.session.MediaSessionCompat:
+    static final java.lang.String TAG
+    static final java.lang.String ACTION_PLAY_FROM_URI
+    static final java.lang.String ACTION_PREPARE
+    static final java.lang.String ACTION_PREPARE_FROM_MEDIA_ID
+    static final java.lang.String ACTION_PREPARE_FROM_SEARCH
+    static final java.lang.String ACTION_PREPARE_FROM_URI
+    static final java.lang.String ACTION_SET_CAPTIONING_ENABLED
+    static final java.lang.String ACTION_SET_REPEAT_MODE
+    static final java.lang.String ACTION_SET_SHUFFLE_MODE_ENABLED
+    static final java.lang.String ACTION_SET_SHUFFLE_MODE
+    static final java.lang.String ACTION_SET_RATING
+    static final java.lang.String ACTION_ARGUMENT_MEDIA_ID
+    static final java.lang.String ACTION_ARGUMENT_QUERY
+    static final java.lang.String ACTION_ARGUMENT_URI
+    static final java.lang.String ACTION_ARGUMENT_RATING
+    static final java.lang.String ACTION_ARGUMENT_EXTRAS
+    static final java.lang.String ACTION_ARGUMENT_CAPTIONING_ENABLED
+    static final java.lang.String ACTION_ARGUMENT_REPEAT_MODE
+    static final java.lang.String ACTION_ARGUMENT_SHUFFLE_MODE_ENABLED
+    static final java.lang.String ACTION_ARGUMENT_SHUFFLE_MODE
+    static final java.lang.String EXTRA_BINDER
+android.support.v4.media.session.MediaSessionCompat$MediaSessionImplBase:
+    static final int RCC_PLAYSTATE_NONE
+android.support.v4.media.session.MediaSessionCompatApi21:
+    static final java.lang.String TAG
+android.support.v4.os.IResultReceiver$Stub:
+    static final int TRANSACTION_send
+android.support.v4.os.LocaleListHelper:
+    209:251:LocaleListHelper(java.util.Locale,android.support.v4.os.LocaleListHelper)
+    260:260:static android.support.v4.os.LocaleListHelper getEmptyLocaleList()
+    274:282:static android.support.v4.os.LocaleListHelper forLanguageTags(java.lang.String)
+    418:418:int getFirstMatchIndex(java.lang.String[])
+    429:429:java.util.Locale getFirstMatchWithEnglishSupported(java.lang.String[])
+    438:438:int getFirstMatchIndexWithEnglishSupported(java.util.Collection)
+    446:446:int getFirstMatchIndexWithEnglishSupported(java.lang.String[])
+    456:472:static boolean isPseudoLocalesOnly(java.lang.String[])
+    503:525:static android.support.v4.os.LocaleListHelper getDefault()
+    534:537:static android.support.v4.os.LocaleListHelper getAdjustedDefault()
+    551:552:static void setDefault(android.support.v4.os.LocaleListHelper)
+    565:583:static void setDefault(android.support.v4.os.LocaleListHelper,int)
+android.support.v4.provider.DocumentFile:
+    static final java.lang.String TAG
+android.support.v4.util.PatternsCompat:
+    static final java.lang.String IANA_TOP_LEVEL_DOMAINS
+android.support.v4.view.AbsSavedState:
+    56:57:protected AbsSavedState(android.os.Parcel)
+android.support.v4.view.ViewPager:
+    931:932:void smoothScrollTo(int,int)
+android.support.v4.view.ViewPropertyAnimatorCompat:
+    static final int LISTENER_TAG_ID
+android.support.v4.widget.CursorAdapter:
+    172:173:protected void init(android.content.Context,android.database.Cursor,boolean)
+android.support.v4.widget.NestedScrollView:
+    static final int ANIMATED_SCROLL_GAP
+    static final float MAX_SCROLL_FACTOR
+android.support.v4.widget.SlidingPaneLayout:
+    1203:1222:protected boolean canScroll(android.view.View,boolean,int,int,int)
+android.support.v4.widget.SwipeProgressBar:
+    54:76:SwipeProgressBar(android.view.View)
+    89:93:void setColorScheme(int,int,int,int)
+    101:105:void setTriggerPercentage(float)
+    111:117:void start()
+    123:129:void stop()
+    135:135:boolean isRunning()
+    139:241:void draw(android.graphics.Canvas)
+    271:275:void setBounds(int,int,int,int)
+android.support.v4.widget.SwipeRefreshLayout:
+    static final int CIRCLE_DIAMETER
+    static final int CIRCLE_DIAMETER_LARGE
+android.support.v4.widget.ViewDragHelper:
+    922:941:protected boolean canScroll(android.view.View,boolean,int,int,int,int)
+android.support.v7.app.AlertDialog:
+    static final int LAYOUT_HINT_NONE
+    static final int LAYOUT_HINT_SIDE
+    78:79:protected AlertDialog(android.content.Context)
+    88:89:protected AlertDialog(android.content.Context,int)
+    97:101:protected AlertDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+    181:182:void setButtonPanelLayoutHint(int)
+android.support.v7.app.AppCompatDelegate:
+    static final java.lang.String TAG
+android.support.v7.app.AppCompatDelegateImplV7:
+    1630:1630:android.view.ViewGroup getSubDecor()
+android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState:
+    boolean wasLastOpen
+    android.os.Bundle frozenMenuState
+    1880:1889:android.os.Parcelable onSaveInstanceState()
+    1893:1900:void onRestoreInstanceState(android.os.Parcelable)
+    1903:1907:void applyFrozenState()
+android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState$SavedState:
+    1909:1909:synthetic AppCompatDelegateImplV7$PanelFeatureState$SavedState(android.support.v7.app.AppCompatDelegateImplV7$1)
+android.support.v7.app.AppCompatDialog:
+    53:54:protected AppCompatDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+android.support.v7.app.TwilightManager:
+    45:48:TwilightManager(android.content.Context)
+    56:78:boolean isNight()
+android.support.v7.internal.app.NotificationCompatImplBase:
+    static final int MAX_MEDIA_BUTTONS_IN_COMPACT
+    static final int MAX_MEDIA_BUTTONS
+android.support.v7.internal.view.menu.ListMenuPresenter:
+    157:157:int getItemIndexOffset()
+android.support.v7.internal.view.menu.MenuBuilder:
+    1233:1234:protected android.support.v7.internal.view.menu.MenuBuilder setHeaderTitleInt(int)
+    1257:1258:protected android.support.v7.internal.view.menu.MenuBuilder setHeaderIconInt(int)
+    1306:1307:void setOptionalIconsVisible(boolean)
+android.support.v7.internal.view.menu.MenuItemImpl:
+    static final int NO_ICON
+    228:228:java.lang.Runnable getCallback()
+android.support.v7.internal.view.menu.MenuItemWrapperICS:
+    static final java.lang.String LOG_TAG
+android.support.v7.widget.ActionMenuView:
+    static final int MIN_CELL_SIZE
+    static final int GENERATED_ITEM_PADDING
+android.support.v7.widget.ActionMenuView$LayoutParams:
+    828:830:ActionMenuView$LayoutParams(int,int,boolean)
+android.support.v7.widget.ListPopupWindow:
+    855:856:void setListItemExpandMax(int)
+android.support.v7.widget.SuggestionsAdapter:
+    static final int REFINE_NONE
+    static final int REFINE_BY_ENTRY
+    static final int REFINE_ALL
+    static final int INVALID_INDEX
+android.support.v7.widget.Toolbar$LayoutParams:
+    static final int CUSTOM
+    static final int SYSTEM
+    static final int EXPANDED
+bolts.AndroidExecutors:
+    static final long KEEP_ALIVE_TIME
+com.adobe.xmp.impl.XMPIteratorImpl$NodeIterator:
+    protected static final int ITERATE_NODE
+    protected static final int ITERATE_CHILDREN
+    protected static final int ITERATE_QUALIFIER
+    494:494:protected java.util.Iterator getChildrenIterator()
+    503:504:protected void setChildrenIterator(java.util.Iterator)
+com.adobe.xmp.impl.XMPNodeUtils:
+    static final int CLT_NO_VALUES
+    static final int CLT_SPECIFIC_MATCH
+    static final int CLT_SINGLE_GENERIC
+    static final int CLT_MULTIPLE_GENERIC
+    static final int CLT_XDEFAULT
+    static final int CLT_FIRST_ITEM
+com.drew.metadata.TagDescriptor:
+    192:195:protected java.lang.String getFormattedFloat(int,java.lang.String)
+com.facebook.cache.disk.DiskStorageCache:
+    227:231:protected void awaitIndex()
+com.facebook.common.executors.StatefulRunnable:
+    protected static final int STATE_CREATED
+    protected static final int STATE_STARTED
+    protected static final int STATE_CANCELLED
+    protected static final int STATE_FINISHED
+    protected static final int STATE_FAILED
+com.facebook.drawee.backends.pipeline.PipelineDraweeController:
+    170:170:protected android.content.res.Resources getResources()
+com.facebook.drawee.controller.AbstractDraweeControllerBuilder:
+    437:437:protected android.content.Context getContext()
+com.facebook.drawee.debug.DebugControllerOverlayDrawable:
+    static final int OVERLAY_COLOR_IMAGE_OK
+    static final int OVERLAY_COLOR_IMAGE_ALMOST_OK
+    static final int OVERLAY_COLOR_IMAGE_NOT_OK
+com.facebook.drawee.view.DraweeHolder:
+    255:255:protected com.facebook.drawee.components.DraweeEventTracker getDraweeEventTracker()
+com.facebook.fbui.textlayoutbuilder.glyphwarmer.GlyphWarmerImpl:
+    43:43:android.os.Looper getWarmHandlerLooper()
+com.facebook.imagepipeline.cache.CountingLruMap:
+    42:42:synchronized java.util.ArrayList getKeys()
+    47:47:synchronized java.util.ArrayList getValues()
+com.facebook.imagepipeline.core.ImagePipelineConfig:
+    214:215:static void resetDefaultRequestConfig()
+com.facebook.imagepipeline.producers.DownsampleUtil:
+    143:148:static int roundToPowerOfTwo(int)
+com.facebook.imagepipeline.producers.JobScheduler:
+    static final java.lang.String QUEUE_TIME_KEY
+com.facebook.imagepipeline.producers.LocalExifThumbnailProducer:
+    static final java.lang.String CREATED_THUMBNAIL
+com.facebook.imagepipeline.producers.LocalVideoThumbnailProducer:
+    static final java.lang.String CREATED_THUMBNAIL
+com.facebook.imagepipeline.producers.NetworkFetchProducer:
+    static final long TIME_BETWEEN_PARTIAL_RESULTS_MS
+com.facebook.imagepipeline.producers.PostprocessedBitmapMemoryCacheProducer:
+    static final java.lang.String VALUE_FOUND
+com.facebook.imagepipeline.producers.PostprocessorProducer:
+    static final java.lang.String POSTPROCESSOR
+com.facebook.imagepipeline.producers.ProducerConstants:
+    static final java.lang.String EXTRA_CACHED_VALUE_FOUND
+    static final java.lang.String EXTRA_BITMAP_SIZE
+    static final java.lang.String EXTRA_HAS_GOOD_QUALITY
+    static final java.lang.String EXTRA_IMAGE_TYPE
+    static final java.lang.String EXTRA_IS_FINAL
+    static final java.lang.String EXTRA_IMAGE_FORMAT_NAME
+    static final java.lang.String ENCODED_IMAGE_SIZE
+    static final java.lang.String REQUESTED_IMAGE_SIZE
+    static final java.lang.String SAMPLE_SIZE
+com.facebook.imagepipeline.producers.ResizeAndRotateProducer:
+    static final int DEFAULT_JPEG_QUALITY
+    static final int MAX_JPEG_SCALE_NUMERATOR
+    static final int MIN_TRANSFORM_INTERVAL_MS
+com.facebook.react.ReactActivity:
+    121:121:protected final com.facebook.react.ReactNativeHost getReactNativeHost()
+    125:125:protected final com.facebook.react.ReactInstanceManager getReactInstanceManager()
+    129:130:protected final void loadApp(java.lang.String)
+com.facebook.react.ReactFragmentActivity:
+    122:122:protected final com.facebook.react.ReactNativeHost getReactNativeHost()
+    126:126:protected final com.facebook.react.ReactInstanceManager getReactInstanceManager()
+    130:131:protected final void loadApp(java.lang.String)
+com.facebook.react.ReactNativeHost:
+    105:105:protected final android.app.Application getApplication()
+com.facebook.react.ReactRootView:
+    426:427:void simulateAttachForTesting()
+com.facebook.react.bridge.FallbackJSBundleLoader:
+    static final java.lang.String RECOVERABLE
+    static final java.lang.String TAG
+com.facebook.react.devsupport.JSCHeapCapture$CaptureException:
+    35:36:JSCHeapCapture$CaptureException(java.lang.String,java.lang.Throwable)
+com.facebook.react.flat.AbstractDrawCommand:
+    139:140:protected void debugDrawWarningHighlight(android.graphics.Canvas,java.lang.String)
+    143:144:protected void debugDrawCautionHighlight(android.graphics.Canvas,java.lang.String)
+    167:167:protected void onDebugDrawHighlight(android.graphics.Canvas)
+com.facebook.react.flat.DrawImageWithDrawee:
+    313:316:protected void onDebugDrawHighlight(android.graphics.Canvas)
+com.facebook.react.flat.DrawView:
+    static final float MINIMUM_ROUNDED_CLIPPING_VALUE
+    210:234:protected void onDebugDrawHighlight(android.graphics.Canvas)
+com.facebook.react.flat.FlatShadowNode:
+    protected static final java.lang.String PROP_REMOVE_CLIPPED_SUBVIEWS
+    protected static final java.lang.String PROP_HORIZONTAL
+com.facebook.react.flat.FlatViewGroup:
+    static final boolean DEBUG_HIGHLIGHT_PERFORMANCE_ISSUES
+    240:241:protected void onDebugDraw(android.graphics.Canvas)
+com.facebook.react.flat.HorizontalDrawCommandManager:
+    24:25:HorizontalDrawCommandManager(com.facebook.react.flat.FlatViewGroup,com.facebook.react.flat.DrawCommand[])
+com.facebook.react.flat.InlineImageSpanWithPipeline:
+    52:52:boolean hasImageRequest()
+com.facebook.react.modules.dialog.AlertFragment:
+    static final java.lang.String ARG_TITLE
+    static final java.lang.String ARG_MESSAGE
+    static final java.lang.String ARG_BUTTON_POSITIVE
+    static final java.lang.String ARG_BUTTON_NEGATIVE
+    static final java.lang.String ARG_BUTTON_NEUTRAL
+    static final java.lang.String ARG_ITEMS
+com.facebook.react.modules.storage.ReactDatabaseSupplier:
+    static final java.lang.String TABLE_CATALYST
+    static final java.lang.String KEY_COLUMN
+    static final java.lang.String VALUE_COLUMN
+    static final java.lang.String VERSION_TABLE_CREATE
+com.facebook.react.uimanager.Spacing:
+    173:176:float getWithFallback(int,int)
+com.facebook.react.uimanager.UIImplementation:
+    143:143:com.facebook.react.uimanager.UIViewOperationQueue getUIViewOperationQueue()
+com.facebook.react.uimanager.ViewManagersPropertyCache:
+    284:298:static java.util.Map getNativePropsForView(java.lang.Class,java.lang.Class)
+com.facebook.react.views.art.ARTVirtualNode:
+    protected static final float MIN_OPACITY_FOR_DRAW
+com.facebook.soloader.NativeLibrary:
+    34:40:protected NativeLibrary(java.util.List)
+com.facebook.soloader.SoLoader:
+    static final java.lang.String TAG
+    static final boolean DEBUG
+    static final boolean SYSTRACE_LIBRARY_LOADING
+com.google.android.cameraview.Camera2$PictureCaptureCallback:
+    static final int STATE_PREVIEW
+    static final int STATE_LOCKING
+    static final int STATE_LOCKED
+    static final int STATE_PRECAPTURE
+    static final int STATE_WAITING
+    static final int STATE_CAPTURING
+com.google.android.gms.auth.api.signin.internal.zzz:
+    final void zza(com.google.android.gms.auth.api.signin.GoogleSignInAccount,com.google.android.gms.auth.api.signin.GoogleSignInOptions)
+    protected final void zzo(java.lang.String,java.lang.String)
+com.google.android.gms.common.ProGuardCanary:
+    static final java.lang.String CANARY
+com.google.android.gms.common.api.ResolvingResultCallbacks:
+    protected ResolvingResultCallbacks(android.app.Activity,int)
+com.google.android.gms.common.api.Response:
+    protected Response(com.google.android.gms.common.api.Result)
+com.google.android.gms.common.api.internal.BasePendingResult:
+    protected final void zza(com.google.android.gms.common.internal.zzaq)
+com.google.android.gms.common.api.internal.zzai:
+    protected zzai(com.google.android.gms.common.data.DataHolder)
+com.google.android.gms.common.api.internal.zzaj:
+    protected zzaj(com.google.android.gms.common.data.DataHolder,com.google.android.gms.common.api.Status)
+com.google.android.gms.common.api.internal.zzcq:
+    protected zzcq(com.google.android.gms.common.api.internal.zzci)
+com.google.android.gms.common.api.internal.zzdn:
+    protected zzdn(com.google.android.gms.common.api.internal.zzck)
+com.google.android.gms.common.api.internal.zzm:
+    protected zzm(com.google.android.gms.common.api.Api$zzc,com.google.android.gms.common.api.GoogleApiClient)
+com.google.android.gms.common.data.zzc:
+    protected final long getLong(java.lang.String)
+    protected final int getInteger(java.lang.String)
+    protected final boolean getBoolean(java.lang.String)
+    protected final java.lang.String getString(java.lang.String)
+    protected final float getFloat(java.lang.String)
+    protected final byte[] getByteArray(java.lang.String)
+    protected final android.net.Uri zzgb(java.lang.String)
+    protected final void zza(java.lang.String,android.database.CharArrayBuffer)
+    protected final boolean zzgc(java.lang.String)
+com.google.android.gms.common.data.zzg:
+    protected zzg(com.google.android.gms.common.data.DataHolder)
+com.google.android.gms.common.internal.DowngradeableSafeParcel:
+    protected static java.lang.Integer zzalg()
+    protected static boolean zzgh(java.lang.String)
+com.google.android.gms.common.internal.zzab:
+    protected final com.google.android.gms.common.internal.zzr zzalh()
+com.google.android.gms.common.internal.zzd:
+    protected zzd(android.content.Context,android.os.Looper,int,com.google.android.gms.common.internal.zzf,com.google.android.gms.common.internal.zzg,java.lang.String)
+com.google.android.gms.internal.zzfek:
+    protected static void zza(java.lang.Iterable,java.util.List)
+com.google.android.gms.internal.zzfel:
+    protected static void zza(java.lang.Iterable,java.util.List)
+com.google.android.gms.internal.zzffu:
+    protected static com.google.android.gms.internal.zzfgc zzcxn()
+    protected static com.google.android.gms.internal.zzffu zza(com.google.android.gms.internal.zzffu,com.google.android.gms.internal.zzfes)
+    protected static com.google.android.gms.internal.zzffu zza(com.google.android.gms.internal.zzffu,byte[])
+com.google.zxing.aztec.encoder.HighLevelEncoder:
+    static final int MODE_UPPER
+    static final int MODE_LOWER
+    static final int MODE_DIGIT
+    static final int MODE_MIXED
+    static final int MODE_PUNCT
+com.google.zxing.aztec.encoder.State:
+    62:62:com.google.zxing.aztec.encoder.Token getToken()
+com.google.zxing.client.result.ProductParsedResult:
+    28:29:ProductParsedResult(java.lang.String)
+com.google.zxing.client.result.ResultParser:
+    99:103:protected static void maybeAppend(java.lang.String,java.lang.StringBuilder)
+    106:112:protected static void maybeAppend(java.lang.String[],java.lang.StringBuilder)
+com.google.zxing.datamatrix.encoder.DefaultPlacement:
+    47:47:final int getNumrows()
+    51:51:final int getNumcols()
+    55:55:final byte[] getBits()
+com.google.zxing.datamatrix.encoder.HighLevelEncoder:
+    static final char LATCH_TO_C40
+    static final char LATCH_TO_BASE256
+    static final char UPPER_SHIFT
+    static final char LATCH_TO_ANSIX12
+    static final char LATCH_TO_TEXT
+    static final char LATCH_TO_EDIFACT
+    static final char C40_UNLATCH
+    static final char X12_UNLATCH
+    static final int ASCII_ENCODATION
+    static final int C40_ENCODATION
+    static final int TEXT_ENCODATION
+    static final int X12_ENCODATION
+    static final int EDIFACT_ENCODATION
+    static final int BASE256_ENCODATION
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder:
+    93:94:MultiFinderPatternFinder(com.google.zxing.common.BitMatrix)
+com.google.zxing.oned.Code39Reader:
+    static final java.lang.String ALPHABET_STRING
+com.google.zxing.oned.rss.expanded.ExpandedPair:
+    53:53:boolean mayBeLast()
+com.google.zxing.oned.rss.expanded.ExpandedRow:
+    47:47:boolean isReversed()
+com.google.zxing.oned.rss.expanded.RSSExpandedReader:
+    358:358:java.util.List getRows()
+com.google.zxing.oned.rss.expanded.decoders.AI01decoder:
+    protected static final int GTIN_SIZE
+com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState:
+    65:65:boolean isNumeric()
+com.google.zxing.oned.rss.expanded.decoders.DecodedChar:
+    static final char FNC1
+com.google.zxing.oned.rss.expanded.decoders.DecodedNumeric:
+    static final int FNC1
+    62:62:int getValue()
+    74:74:boolean isAnyFNC1()
+com.google.zxing.pdf417.PDF417Writer:
+    static final int WHITE_SPACE
+    static final int DEFAULT_ERROR_CORRECTION_LEVEL
+com.google.zxing.pdf417.decoder.ec.ModulusPoly:
+    56:56:int[] getCoefficients()
+    205:227:com.google.zxing.pdf417.decoder.ec.ModulusPoly[] divide(com.google.zxing.pdf417.decoder.ec.ModulusPoly)
+com.google.zxing.pdf417.encoder.BarcodeMatrix:
+    47:48:void set(int,int,byte)
+com.google.zxing.pdf417.encoder.BarcodeRow:
+    43:44:void set(int,byte)
+com.google.zxing.pdf417.encoder.PDF417ErrorCorrection:
+    152:167:static int getRecommendedMinimumErrorCorrectionLevel(int)
+com.google.zxing.qrcode.detector.Detector:
+    53:53:protected final com.google.zxing.ResultPointCallback getResultPointCallback()
+com.google.zxing.qrcode.detector.FinderPatternFinder:
+    protected static final int MIN_SKIP
+    protected static final int MAX_MODULES
+com.google.zxing.qrcode.encoder.Encoder:
+    static final java.lang.String DEFAULT_BYTE_MODE_ENCODING
+okio.Buffer:
+    static final int REPLACEMENT_CHARACTER
+    1539:1545:java.util.List segmentSizes()
+okio.Segment:
+    static final int SIZE
+    static final int SHARE_MINIMUM
+okio.SegmentPool:
+    static final long MAX_SIZE

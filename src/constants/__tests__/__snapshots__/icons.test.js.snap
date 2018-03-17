@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders icons  1`] = `
+Object {
+  "LOGO": Object {
+    "testUri": "../../../src/images/logo.png",
+  },
+}
+`;

@@ -1,0 +1,3 @@
+# Referenced at /Users/bamms/Desktop/exampleApp/android/app/build/intermediates/manifests/full/release/AndroidManifest.xml:29
+-keep class com.exampleapp.MainApplication { <init>(...); }
+
